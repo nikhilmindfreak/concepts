@@ -7,7 +7,7 @@ route:
 receivers:
   - name: 'ses'
     email_configs:
-      - smarthost: email-smtp.us-east-1.amazonaws.com:587
+      - smarthost: email-smtp.us-east-1.amazonaws.com:587   #smtp end point with port 587
         auth_username: your-username
         auth_password: your-password
         from: your-from-address
